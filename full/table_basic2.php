@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
-
+	<!-- sas 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
 	<link href="../../../../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
@@ -21,17 +21,9 @@
 	<script src="../../../../global_assets/js/main/bootstrap.bundle.min.js"></script>
 	<script src="../../../../global_assets/js/plugins/loaders/blockui.min.js"></script>
 	<!-- /core JS files -->
-
+	<!--/sas-->
 	<!-- Theme JS files -->
-	<script src="../../../../global_assets/js/plugins/visualization/d3/d3.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
-	<script src="../../../../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
-	<script src="../../../../global_assets/js/plugins/ui/moment/moment.min.js"></script>
-	<script src="../../../../global_assets/js/plugins/pickers/daterangepicker.js"></script>
-
 	<script src="assets/js/app.js"></script>
-	<script src="../../../../global_assets/js/demo_pages/dashboard.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -407,10 +399,11 @@
 						<!-- Main -->
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
 						<li class="nav-item">
-							<a href="index.html" class="nav-link active">
+							<a href="index.html" class="nav-link">
 								<i class="icon-home4"></i>
 								<span>
 									Dashboard
+									<span class="d-block font-weight-normal opacity-50">No active orders</span>
 								</span>
 							</a>
 						</li>
@@ -419,47 +412,8 @@
 
 							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
 								<li class="nav-item"><a href="index.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/form_inputs.html" class="nav-link">Editar</a></li>
-								<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/datatable_basic.html" class="nav-link">Listado</a></li></ul>
-
-						</li>
-						<!-- Main -->
-						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-copy"></i> <span>Departamentos</span></a>
-
-							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="index.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/index.html" class="nav-link">Editar</a></li>
-								<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/Empresas.html" class="nav-link">Listado</a></li>
-						</ul>
-						</li>
-						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-copy"></i> <span>Habilidades</span></a>
-
-							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="index.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/index.html" class="nav-link">Editar</a></li>
-								<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/Empresas.html" class="nav-link">Listado</a></li>
-						</ul>
-						</li>
-						<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-copy"></i>Empresas</i> <span></span></a>
-
-							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/Empresas agregar.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/Empresas Formulario.html" class="nav-link">Editar</a></li>
-								<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/Empresas.html" class="nav-link">Listado</a></li>
-						</ul>
-						</li>
-							<li class="nav-item nav-item-submenu">
-							<a href="#" class="nav-link"><i class="icon-copy"></i>Periodo Vacaccional</i> <span></span></a>
-
-							<ul class="nav nav-group-sub" data-submenu-title="Layouts">
-								<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/Periodo vacaccional agregar.html" class="nav-link active">Agregar</a></li>
-								<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/Periodo vacacional empleados formulario.html" class="nav-link">Editar</a></li>
-								<li class="nav-item"><a href="../../../../layout_1/LTR/default/full/Periodo Vaccacional Empleados.html" class="nav-link">Listado</a></li>
-						</ul>
-						</li>
+								<li class="nav-item"><a href="../../../../layout_2/LTR/default/full/index.html" class="nav-link">Editar</a></li>
+								<li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Listado</a></li>
 								<!-- Main --
 								<li class="nav-item"><a href="../../../../layout_4/LTR/default/full/index.html" class="nav-link">Layout 4</a></li>
 								<li class="nav-item"><a href="../../../../layout_5/LTR/default/full/index.html" class="nav-link">Layout 5</a></li>
@@ -1003,10 +957,10 @@
 
 						<!-- Tables --
 						<li class="nav-item-header"><div class="text-uppercase font-size-xs line-height-xs">Tables</div> <i class="icon-menu" title="Tables"></i></li>
-						<li class="nav-item nav-item-submenu">
+						<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
 							<a href="#" class="nav-link"><i class="icon-table2"></i> <span>Basic tables</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Basic tables">
-								<li class="nav-item"><a href="table_basic.html" class="nav-link">Basic examples</a></li>
+								<li class="nav-item"><a href="table_basic.html" class="nav-link active">Basic examples</a></li>
 								<li class="nav-item"><a href="table_sizing.html" class="nav-link">Table sizing</a></li>
 								<li class="nav-item"><a href="table_borders.html" class="nav-link">Table borders</a></li>
 								<li class="nav-item"><a href="table_styling.html" class="nav-link">Table styling</a></li>
@@ -1232,7 +1186,7 @@
 								<li class="nav-item"><a href="widgets_form.html" class="nav-link disabled">Form widgets <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
 							</ul>
 						</li>
-						<!-- /page kits -->
+						<-- /page kits -->
 
 					</ul>
 				</div>
@@ -1252,7 +1206,7 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Home</span> - Dashboard</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Tables</span> - Basic</h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
@@ -1269,7 +1223,8 @@
 					<div class="d-flex">
 						<div class="breadcrumb">
 							<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
-							<span class="breadcrumb-item active">Dashboard</span>
+							<a href="table_basic.html" class="breadcrumb-item">Tables</a>
+							<span class="breadcrumb-item active">Basic</span>
 						</div>
 
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
@@ -1301,1801 +1256,657 @@
 				</div>
 			</div>
 			<!-- /page header -->
+
+
 			<!-- Content area -->
 			<div class="content">
 
-				<!-- Main charts -->				<div class="mb-3">
-									<h6 class="mb-0 font-weight-semibold">
-						Simple stats
+				<!-- Basic tables title -->
+				<div class="mb-3">
+					<h6 class="mb-0 font-weight-semibold">
+						Basic tables
 					</h6>
-					<span class="text-muted d-block">Boxes with icons</span>
+					<span class="text-muted d-block">Tables with default <code>Bootstrap</code> styling</span>
 				</div>
-
-				<div class="row">
-					<div class="col-sm-6 col-xl-3">
-						<div class="card card-body">
-							<div class="media">
-								<div class="mr-3 align-self-center">
-									<i class="icon-pointer icon-3x text-success-400"></i>
-								</div>
-
-								<div class="media-body text-right">
-									<h3 class="font-weight-semibold mb-0">652,549</h3>
-									<span class="text-uppercase font-size-sm text-muted">total clicks</span>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-xl-3">
-						<div class="card card-body">
-							<div class="media">
-								<div class="mr-3 align-self-center">
-									<i class="icon-enter6 icon-3x text-indigo-400"></i>
-								</div>
-
-								<div class="media-body text-right">
-									<h3 class="font-weight-semibold mb-0">245,382</h3>
-									<span class="text-uppercase font-size-sm text-muted">total visits</span>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-xl-3">
-						<div class="card card-body">
-							<div class="media">
-								<div class="media-body">
-									<h3 class="font-weight-semibold mb-0">54,390</h3>
-									<span class="text-uppercase font-size-sm text-muted">total comments</span>
-								</div>
-
-								<div class="ml-3 align-self-center">
-									<i class="icon-bubbles4 icon-3x text-blue-400"></i>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-sm-6 col-xl-3">
-						<div class="card card-body bg-blue-400 has-bg-image">
-							<div class="media">
-								<div class="media-body">
-									<h3 class="mb-0">54,390</h3>
-									<span class="text-uppercase font-size-xs">total comments</span>
-								</div>
-
-								<div class="ml-3 align-self-center">
-									<i class="icon-bubbles4 icon-3x opacity-75"></i>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-xl-3">
-						<div class="card card-body bg-danger-400 has-bg-image">
-							<div class="media">
-								<div class="media-body">
-									<h3 class="mb-0">389,438</h3>
-									<span class="text-uppercase font-size-xs">total orders</span>
-								</div>
-
-								<div class="ml-3 align-self-center">
-									<i class="icon-bag icon-3x opacity-75"></i>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-xl-3">
-						<div class="card card-body bg-success-400 has-bg-image">
-							<div class="media">
-								<div class="mr-3 align-self-center">
-									<i class="icon-pointer icon-3x opacity-75"></i>
-								</div>
-
-								<div class="media-body text-right">
-									<h3 class="mb-0">652,549</h3>
-									<span class="text-uppercase font-size-xs">total clicks</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>	
-
-
-						<!-- Traffic sources --
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h6 class="card-title">Traffic sources</h6>
-								<div class="header-elements">
-									<div class="form-check form-check-right form-check-switchery form-check-switchery-sm">
-										<label class="form-check-label">
-											Live update:
-											<input type="checkbox" class="form-input-switchery" checked data-fouc>
-										</label>
-									</div>
-								</div>
-							</div>
-
-							<div class="card-body py-0">
-								<div class="row">
-									<div class="col-sm-4">
-										<div class="d-flex align-items-center justify-content-center mb-2">
-											<a href="#" class="btn bg-transparent border-teal text-teal rounded-round border-2 btn-icon mr-3">
-												<i class="icon-plus3"></i>
-											</a>
-											<div>
-												<div class="font-weight-semibold">New visitors</div>
-												<span class="text-muted">2,349 avg</span>
-											</div>
-										</div>
-										<div class="w-75 mx-auto mb-3" id="new-visitors"></div>
-									</div>
-
-									<div class="col-sm-4">
-										<div class="d-flex align-items-center justify-content-center mb-2">
-											<a href="#" class="btn bg-transparent border-warning-400 text-warning-400 rounded-round border-2 btn-icon mr-3">
-												<i class="icon-watch2"></i>
-											</a>
-											<div>
-												<div class="font-weight-semibold">New sessions</div>
-												<span class="text-muted">08:20 avg</span>
-											</div>
-										</div>
-										<div class="w-75 mx-auto mb-3" id="new-sessions"></div>
-									</div>
-
-									<div class="col-sm-4">
-										<div class="d-flex align-items-center justify-content-center mb-2">
-											<a href="#" class="btn bg-transparent border-indigo-400 text-indigo-400 rounded-round border-2 btn-icon mr-3">
-												<i class="icon-people"></i>
-											</a>
-											<div>
-												<div class="font-weight-semibold">Total online</div>
-												<span class="text-muted"><span class="badge badge-mark border-success mr-2"></span> 5,378 avg</span>
-											</div>
-										</div>
-										<div class="w-75 mx-auto mb-3" id="total-online"></div>
-									</div>
-								</div>
-							</div>
-
-							<div class="chart position-relative" id="traffic-sources"></div>
-						</div>
-						<!-- /traffic sources -->
-
-					</div>
-
-					<div class="col-xl-5">
-
-						<!-- Sales stats --
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h6 class="card-title">Sales statistics</h6>
-								<div class="header-elements">
-									<select class="form-control" id="select_date" data-fouc>
-										<option value="val1">June, 29 - July, 5</option>
-										<option value="val2">June, 22 - June 28</option>
-										<option value="val3" selected>June, 15 - June, 21</option>
-										<option value="val4">June, 8 - June, 14</option>
-									</select>
-			                	</div>
-							</div>
-
-							<div class="card-body py-0">
-								<div class="row text-center">
-									<div class="col-4">
-										<div class="mb-3">
-											<h5 class="font-weight-semibold mb-0">5,689</h5>
-											<span class="text-muted font-size-sm">new orders</span>
-										</div>
-									</div>
-
-									<div class="col-4">
-										<div class="mb-3">
-											<h5 class="font-weight-semibold mb-0">32,568</h5>
-											<span class="text-muted font-size-sm">this month</span>
-										</div>
-									</div>
-
-									<div class="col-4">
-										<div class="mb-3">
-											<h5 class="font-weight-semibold mb-0">$23,464</h5>
-											<span class="text-muted font-size-sm">expected profit</span>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="chart mb-2" id="app_sales"></div>
-							<div class="chart" id="monthly-sales-stats"></div>
-						</div>
-						<!-- /sales stats -->
-
-					</div>
-				</div>
-				<!-- /main charts -->
-
-
-				<!-- Dashboard content --
-				<div class="row">
-					<div class="col-xl-8">
-
-						<!-- Marketing campaigns --
-						<div class="card">
-							<div class="card-header header-elements-sm-inline">
-								<h6 class="card-title">Marketing campaigns</h6>
-								<div class="header-elements">
-									<span class="badge bg-success badge-pill">28 active</span>
-									<div class="list-icons ml-3">
-				                		<div class="list-icons-item dropdown">
-				                			<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-											<div class="dropdown-menu">
-												<a href="#" class="dropdown-item"><i class="icon-sync"></i> Update data</a>
-												<a href="#" class="dropdown-item"><i class="icon-list-unordered"></i> Detailed log</a>
-												<a href="#" class="dropdown-item"><i class="icon-pie5"></i> Statistics</a>
-												<div class="dropdown-divider"></div>
-												<a href="#" class="dropdown-item"><i class="icon-cross3"></i> Clear list</a>
-											</div>
-				                		</div>
-				                	</div>
-			                	</div>
-							</div>
-
-							<div class="card-body d-sm-flex align-items-sm-center justify-content-sm-between flex-sm-wrap">
-								<div class="d-flex align-items-center mb-3 mb-sm-0">
-									<div id="campaigns-donut"></div>
-									<div class="ml-3">
-										<h5 class="font-weight-semibold mb-0">38,289 <span class="text-success font-size-sm font-weight-normal"><i class="icon-arrow-up12"></i> (+16.2%)</span></h5>
-										<span class="badge badge-mark border-success mr-1"></span> <span class="text-muted">May 12, 12:30 am</span>
-									</div>
-								</div>
-
-								<div class="d-flex align-items-center mb-3 mb-sm-0">
-									<div id="campaign-status-pie"></div>
-									<div class="ml-3">
-										<h5 class="font-weight-semibold mb-0">2,458 <span class="text-danger font-size-sm font-weight-normal"><i class="icon-arrow-down12"></i> (-4.9%)</span></h5>
-										<span class="badge badge-mark border-danger mr-1"></span> <span class="text-muted">Jun 4, 4:00 am</span>
-									</div>
-								</div>
-
-								<div>
-									<a href="#" class="btn bg-indigo-300"><i class="icon-statistics mr-2"></i> View report</a>
-								</div>
-							</div>
-
-							<div class="table-responsive">
-								<table class="table text-nowrap">
-									<thead>
-										<tr>
-											<th>Campaign</th>
-											<th>Client</th>
-											<th>Changes</th>
-											<th>Budget</th>
-											<th>Status</th>
-											<th class="text-center" style="width: 20px;"><i class="icon-arrow-down12"></i></th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr class="table-active table-border-double">
-											<td colspan="5">Today</td>
-											<td class="text-right">
-												<span class="progress-meter" id="today-progress" data-progress="30"></span>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/brands/facebook.png" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Facebook</a>
-														<div class="text-muted font-size-sm">
-															<span class="badge badge-mark border-blue mr-1"></span>
-															02:00 - 03:00
-														</div>
-													</div>
-												</div>
-											</td>
-											<td><span class="text-muted">Mintlime</span></td>
-											<td><span class="text-success-600"><i class="icon-stats-growth2 mr-2"></i> 2.43%</span></td>
-											<td><h6 class="font-weight-semibold mb-0">$5,489</h6></td>
-											<td><span class="badge bg-blue">Active</span></td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View statement</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit campaign</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-locked"></i> Disable campaign</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-gear"></i> Settings</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/brands/youtube.png" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Youtube videos</a>
-														<div class="text-muted font-size-sm">
-															<span class="badge badge-mark border-danger mr-1"></span>
-															13:00 - 14:00
-														</div>
-													</div>
-												</div>
-											</td>
-											<td><span class="text-muted">CDsoft</span></td>
-											<td><span class="text-success-600"><i class="icon-stats-growth2 mr-2"></i> 3.12%</span></td>
-											<td><h6 class="font-weight-semibold mb-0">$2,592</h6></td>
-											<td><span class="badge bg-danger">Closed</span></td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View statement</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit campaign</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-locked"></i> Disable campaign</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-gear"></i> Settings</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/brands/spotify.png" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Spotify ads</a>
-														<div class="text-muted font-size-sm">
-															<span class="badge badge-mark border-grey-400 mr-1"></span>
-															10:00 - 11:00
-														</div>
-													</div>
-												</div>
-											</td>
-											<td><span class="text-muted">Diligence</span></td>
-											<td><span class="text-danger"><i class="icon-stats-decline2 mr-2"></i> - 8.02%</span></td>
-											<td><h6 class="font-weight-semibold mb-0">$1,268</h6></td>
-											<td><span class="badge bg-grey-400">On hold</span></td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View statement</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit campaign</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-locked"></i> Disable campaign</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-gear"></i> Settings</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/brands/twitter.png" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Twitter ads</a>
-														<div class="text-muted font-size-sm">
-															<span class="badge badge-mark border-grey-400 mr-1"></span>
-															04:00 - 05:00
-														</div>
-													</div>
-												</div>
-											</td>
-											<td><span class="text-muted">Deluxe</span></td>
-											<td><span class="text-success-600"><i class="icon-stats-growth2 mr-2"></i> 2.78%</span></td>
-											<td><h6 class="font-weight-semibold mb-0">$7,467</h6></td>
-											<td><span class="badge bg-grey-400">On hold</span></td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View statement</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit campaign</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-locked"></i> Disable campaign</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-gear"></i> Settings</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr class="table-active table-border-double">
-											<td colspan="5">Yesterday</td>
-											<td class="text-right">
-												<span class="progress-meter" id="yesterday-progress" data-progress="65"></span>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/brands/bing.png" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Bing campaign</a>
-														<div class="text-muted font-size-sm">
-															<span class="badge badge-mark border-success mr-1"></span>
-															15:00 - 16:00
-														</div>
-													</div>
-												</div>
-											</td>
-											<td><span class="text-muted">Metrics</span></td>
-											<td><span class="text-danger"><i class="icon-stats-decline2 mr-2"></i> - 5.78%</span></td>
-											<td><h6 class="font-weight-semibold mb-0">$970</h6></td>
-											<td><span class="badge bg-success-400">Pending</span></td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View statement</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit campaign</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-locked"></i> Disable campaign</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-gear"></i> Settings</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/brands/amazon.png" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Amazon ads</a>
-														<div class="text-muted font-size-sm">
-															<span class="badge badge-mark border-danger mr-1"></span>
-															18:00 - 19:00
-														</div>
-													</div>
-												</div>
-											</td>
-											<td><span class="text-muted">Blueish</span></td>
-											<td><span class="text-success-600"><i class="icon-stats-growth2 mr-2"></i> 6.79%</span></td>
-											<td><h6 class="font-weight-semibold mb-0">$1,540</h6></td>
-											<td><span class="badge bg-blue">Active</span></td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View statement</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit campaign</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-locked"></i> Disable campaign</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-gear"></i> Settings</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/brands/dribbble.png" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Dribbble ads</a>
-														<div class="text-muted font-size-sm">
-															<span class="badge badge-mark border-blue mr-1"></span>
-															20:00 - 21:00
-														</div>
-													</div>
-												</div>
-											</td>
-											<td><span class="text-muted">Teamable</span></td>
-											<td><span class="text-danger"><i class="icon-stats-decline2 mr-2"></i> 9.83%</span></td>
-											<td><h6 class="font-weight-semibold mb-0">$8,350</h6></td>
-											<td><span class="badge bg-danger">Closed</span></td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View statement</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit campaign</a>
-															<a href="#" class="dropdown-item"><i class="icon-file-locked"></i> Disable campaign</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-gear"></i> Settings</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-						</div>
-						<!-- /marketing campaigns -->
-
-
-						<!-- Quick stats boxes --
-						<div class="row">
-							<div class="col-lg-4">
-
-								<!-- Members online --
-								<div class="card bg-teal-400">
-									<div class="card-body">
-										<div class="d-flex">
-											<h3 class="font-weight-semibold mb-0">3,450</h3>
-											<span class="badge bg-teal-800 badge-pill align-self-center ml-auto">+53,6%</span>
-					                	</div>
-					                	
-					                	<div>
-											Members online
-											<div class="font-size-sm opacity-75">489 avg</div>
-										</div>
-									</div>
-
-									<div class="container-fluid">
-										<div id="members-online"></div>
-									</div>
-								</div>
-								<!-- /members online -->
-
-							</div>
-
-							<div class="col-lg-4">
-
-								<!-- Current server load --
-								<div class="card bg-pink-400">
-									<div class="card-body">
-										<div class="d-flex">
-											<h3 class="font-weight-semibold mb-0">49.4%</h3>
-											<div class="list-icons ml-auto">
-						                		<div class="list-icons-item dropdown">
-						                			<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cog3"></i></a>
-													<div class="dropdown-menu dropdown-menu-right">
-														<a href="#" class="dropdown-item"><i class="icon-sync"></i> Update data</a>
-														<a href="#" class="dropdown-item"><i class="icon-list-unordered"></i> Detailed log</a>
-														<a href="#" class="dropdown-item"><i class="icon-pie5"></i> Statistics</a>
-														<a href="#" class="dropdown-item"><i class="icon-cross3"></i> Clear list</a>
-													</div>
-						                		</div>
-					                		</div>
-					                	</div>
-					                	
-					                	<div>
-											Current server load
-											<div class="font-size-sm opacity-75">34.6% avg</div>
-										</div>
-									</div>
-
-									<div id="server-load"></div>
-								</div>
-								<!-- /current server load -->
-
-							</div>
-
-							<div class="col-lg-4">
-
-								<!-- Today's revenue --
-								<div class="card bg-blue-400">
-									<div class="card-body">
-										<div class="d-flex">
-											<h3 class="font-weight-semibold mb-0">$18,390</h3>
-											<div class="list-icons ml-auto">
-						                		<a class="list-icons-item" data-action="reload"></a>
-						                	</div>
-					                	</div>
-					                	
-					                	<div>
-											Today's revenue
-											<div class="font-size-sm opacity-75">$37,578 avg</div>
-										</div>
-									</div>
-
-									<div id="today-revenue"></div>
-								</div>
-								<!-- /today's revenue -->
-
-							</div>
-						</div>
-						<!-- /quick stats boxes -->
-
-
-						<!-- Support tickets --
-						<div class="card">
-							<div class="card-header header-elements-sm-inline">
-								<h6 class="card-title">Support tickets</h6>
-								<div class="header-elements">
-									<a class="text-default daterange-ranges font-weight-semibold cursor-pointer dropdown-toggle">
-										<i class="icon-calendar3 mr-2"></i>
-										<span></span>
-									</a>
-			                	</div>
-							</div>
-
-							<div class="card-body d-md-flex align-items-md-center justify-content-md-between flex-md-wrap">
-								<div class="d-flex align-items-center mb-3 mb-md-0">
-									<div id="tickets-status"></div>
-									<div class="ml-3">
-										<h5 class="font-weight-semibold mb-0">14,327 <span class="text-success font-size-sm font-weight-normal"><i class="icon-arrow-up12"></i> (+2.9%)</span></h5>
-										<span class="badge badge-mark border-success mr-1"></span> <span class="text-muted">Jun 16, 10:00 am</span>
-									</div>
-								</div>
-
-								<div class="d-flex align-items-center mb-3 mb-md-0">
-									<a href="#" class="btn bg-transparent border-indigo-400 text-indigo-400 rounded-round border-2 btn-icon">
-										<i class="icon-alarm-add"></i>
-									</a>
-									<div class="ml-3">
-										<h5 class="font-weight-semibold mb-0">1,132</h5>
-										<span class="text-muted">total tickets</span>
-									</div>
-								</div>
-
-								<div class="d-flex align-items-center mb-3 mb-md-0">
-									<a href="#" class="btn bg-transparent border-indigo-400 text-indigo-400 rounded-round border-2 btn-icon">
-										<i class="icon-spinner11"></i>
-									</a>
-									<div class="ml-3">
-										<h5 class="font-weight-semibold mb-0">06:25:00</h5>
-										<span class="text-muted">response time</span>
-									</div>
-								</div>
-
-								<div>
-									<a href="#" class="btn bg-teal-400"><i class="icon-statistics mr-2"></i> Report</a>
-								</div>
-							</div>
-
-							<div class="table-responsive">
-								<table class="table text-nowrap">
-									<thead>
-										<tr>
-											<th style="width: 50px">Due</th>
-											<th style="width: 300px;">User</th>
-											<th>Description</th>
-											<th class="text-center" style="width: 20px;"><i class="icon-arrow-down12"></i></th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr class="table-active table-border-double">
-											<td colspan="3">Active tickets</td>
-											<td class="text-right">
-												<span class="badge bg-blue badge-pill">24</span>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<h6 class="mb-0">12</h6>
-												<div class="font-size-sm text-muted line-height-1">hours</div>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-teal-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Annabelle Doney</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-blue mr-1"></span> Active</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div class="font-weight-semibold">[#1183] Workaround for OS X selects printing bug</div>
-													<span class="text-muted">Chrome fixed the bug several versions ago, thus rendering this...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-checkmark3 text-success"></i> Resolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<h6 class="mb-0">16</h6>
-												<div class="font-size-sm text-muted line-height-1">hours</div>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Chris Macintyre</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-blue mr-1"></span> Active</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div class="font-weight-semibold">[#1249] Vertically center carousel controls</div>
-													<span class="text-muted">Try any carousel control and reduce the screen width below...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-checkmark3 text-success"></i> Resolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<h6 class="mb-0">20</h6>
-												<div class="font-size-sm text-muted line-height-1">hours</div>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-blue rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Robert Hauber</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-blue mr-1"></span> Active</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div class="font-weight-semibold">[#1254] Inaccurate small pagination height</div>
-													<span class="text-muted">The height of pagination elements is not consistent with...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-checkmark3 text-success"></i> Resolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<h6 class="mb-0">40</h6>
-												<div class="font-size-sm text-muted line-height-1">hours</div>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-warning-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Robert Hauber</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-blue mr-1"></span> Active</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div class="font-weight-semibold">[#1184] Round grid column gutter operations</div>
-													<span class="text-muted">Left rounds up, right rounds down. should keep everything...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-checkmark3 text-success"></i> Resolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr class="table-active table-border-double">
-											<td colspan="3">Resolved tickets</td>
-											<td class="text-right">
-												<span class="badge bg-success badge-pill">42</span>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<i class="icon-checkmark3 text-success"></i>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-success-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Alan Macedo</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-success mr-1"></span> Resolved</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div>[#1046] Avoid some unnecessary HTML string</div>
-													<span class="text-muted">Rather than building a string of HTML and then parsing it...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-plus3 text-blue"></i> Unresolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<i class="icon-checkmark3 text-success"></i>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-pink-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Brett Castellano</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-success mr-1"></span> Resolved</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div>[#1038] Update json configuration</div>
-													<span class="text-muted">The <code>files</code> property is necessary to override the files property...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-plus3 text-blue"></i> Unresolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<i class="icon-checkmark3 text-success"></i>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Roxanne Forbes</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-success mr-1"></span> Resolved</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div>[#1034] Tooltip multiple event</div>
-													<span class="text-muted">Fix behavior when using tooltips and popovers that are...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-plus3 text-blue"></i> Unresolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-cross2 text-danger"></i> Close issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr class="table-active table-border-double">
-											<td colspan="3">Closed tickets</td>
-											<td class="text-right">
-												<span class="badge bg-danger badge-pill">37</span>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<i class="icon-cross2 text-danger-400"></i>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#">
-															<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="32" height="32" alt="">
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold">Mitchell Sitkin</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-danger mr-1"></span> Closed</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div>[#1040] Account for static form controls in form group</div>
-													<span class="text-muted">Resizes control label's font-size and account for the standard...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-plus3 text-blue"></i> Unresolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-spinner11 text-grey"></i> Reopen issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-
-										<tr>
-											<td class="text-center">
-												<i class="icon-cross2 text-danger"></i>
-											</td>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-brown-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Katleen Jensen</a>
-														<div class="text-muted font-size-sm"><span class="badge badge-mark border-danger mr-1"></span> Closed</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<a href="#" class="text-default">
-													<div>[#1038] Proper sizing of form control feedback</div>
-													<span class="text-muted">Feedback icon sizing inside a larger/smaller form-group...</span>
-												</a>
-											</td>
-											<td class="text-center">
-												<div class="list-icons">
-													<div class="list-icons-item dropdown">
-														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
-														<div class="dropdown-menu dropdown-menu-right">
-															<a href="#" class="dropdown-item"><i class="icon-undo"></i> Quick reply</a>
-															<a href="#" class="dropdown-item"><i class="icon-history"></i> Full history</a>
-															<div class="dropdown-divider"></div>
-															<a href="#" class="dropdown-item"><i class="icon-plus3 text-blue"></i> Unresolve issue</a>
-															<a href="#" class="dropdown-item"><i class="icon-spinner11 text-grey"></i> Reopen issue</a>
-														</div>
-													</div>
-												</div>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-						</div>
-						<!-- /support tickets -->
-
-
-						<!-- Latest posts --
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h6 class="card-title">Latest posts</h6>
-								<div class="header-elements">
-									<div class="list-icons">
-				                		<a class="list-icons-item" data-action="collapse"></a>
-				                		<a class="list-icons-item" data-action="reload"></a>
-				                		<a class="list-icons-item" data-action="remove"></a>
-				                	</div>
-			                	</div>
+				<!-- /basic tables title -->
+
+
+				<!-- Basic table -->
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Empleados</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
 		                	</div>
-
-							<div class="card-body pb-0">
-								<div class="row">
-									<div class="col-xl-6">
-										<div class="media flex-column flex-sm-row mt-0 mb-3">
-				        					<div class="mr-sm-3 mb-2 mb-sm-0">
-												<div class="card-img-actions">
-													<a href="#">
-														<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
-														<span class="card-img-actions-overlay card-img"><i class="icon-play3 icon-2x"></i></span>
-													</a>
-												</div>
-											</div>
-
-				        					<div class="media-body">
-												<h6 class="media-title"><a href="#">Up unpacked friendly</a></h6>
-					                    		<ul class="list-inline list-inline-dotted text-muted mb-2">
-					                    			<li class="list-inline-item"><i class="icon-book-play mr-2"></i> Video tutorials</li>
-					                    		</ul>
-												The him father parish looked has sooner. Attachment frequently terminated son hello...
-											</div>
-										</div>
-
-										<div class="media flex-column flex-sm-row mt-0 mb-3">
-				        					<div class="mr-sm-3 mb-2 mb-sm-0">
-												<div class="card-img-actions">
-													<a href="#">
-														<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
-														<span class="card-img-actions-overlay card-img"><i class="icon-play3 icon-2x"></i></span>
-													</a>
-												</div>
-											</div>
-
-				        					<div class="media-body">
-												<h6 class="media-title"><a href="#">It allowance prevailed</a></h6>
-					                    		<ul class="list-inline list-inline-dotted text-muted mb-2">
-					                    			<li class="list-inline-item"><i class="icon-book-play mr-2"></i> Video tutorials</li>
-					                    		</ul>
-												Alteration literature to or an sympathize mr imprudence. Of is ferrars subject enjoyed...
-											</div>
-										</div>
-									</div>
-
-									<div class="col-xl-6">
-										<div class="media flex-column flex-sm-row mt-0 mb-3">
-				        					<div class="mr-sm-3 mb-2 mb-sm-0">
-												<div class="card-img-actions">
-													<a href="#">
-														<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
-														<span class="card-img-actions-overlay card-img"><i class="icon-play3 icon-2x"></i></span>
-													</a>
-												</div>
-											</div>
-
-				        					<div class="media-body">
-												<h6 class="media-title"><a href="#">Case read they must</a></h6>
-					                    		<ul class="list-inline list-inline-dotted text-muted mb-2">
-					                    			<li class="list-inline-item"><i class="icon-book-play mr-2"></i> Video tutorials</li>
-					                    		</ul>
-												On it differed repeated wandered required in. Then girl neat why yet knew rose spot...
-											</div>
-										</div>
-
-										<div class="media flex-column flex-sm-row mt-0 mb-3">
-				        					<div class="mr-sm-3 mb-2 mb-sm-0">
-												<div class="card-img-actions">
-													<a href="#">
-														<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="img-fluid img-preview rounded" alt="">
-														<span class="card-img-actions-overlay card-img"><i class="icon-play3 icon-2x"></i></span>
-													</a>
-												</div>
-											</div>
-
-				        					<div class="media-body">
-												<h6 class="media-title"><a href="#">Too carriage attended</a></h6>
-					                    		<ul class="list-inline list-inline-dotted text-muted mb-2">
-					                    			<li class="list-inline-item"><i class="icon-book-play mr-2"></i> FAQ section</li>
-					                    		</ul>
-												Marianne or husbands if at stronger ye. Considered is as middletons uncommonly...
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- /latest posts -->
-
+	                	</div>
 					</div>
 
-					<div class="col-xl-4">
-
-						<!-- Progress counters --
-						<div class="row">
-							<div class="col-sm-6">
-
-								<!-- Available hours --
-								<div class="card text-center">
-									<div class="card-body">
-
-					                	<!-- Progress counter --
-										<div class="svg-center position-relative" id="hours-available-progress"></div>
-										<!-- /progress counter -->
-
-
-										<!-- Bars --
-										<div id="hours-available-bars"></div>
-										<!-- /bars -->
-
-									</div>
-								</div>
-								<!-- /available hours --
-
-							</div>
-
-							<div class="col-sm-6">
-
-								<!-- Productivity goal --
-								<div class="card text-center">
-									<div class="card-body">
-
-										<!-- Progress counter --
-										<div class="svg-center position-relative" id="goal-progress"></div>
-										<!-- /progress counter -->
-
-										<!-- Bars --
-										<div id="goal-bars"></div>
-										<!-- /bars -->
-
-									</div>
-								</div>
-								<!-- /productivity goal -->
-
-							</div>
-						</div>
-						<!-- /progress counters -->
-
-
-						<!-- Daily sales --
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h6 class="card-title">Daily sales stats</h6>
-								<div class="header-elements">
-									<span class="font-weight-bold text-danger-600 ml-2">$4,378</span>
-									<div class="list-icons ml-3">
-				                		<div class="list-icons-item dropdown">
-				                			<a href="#" class="list-icons-item dropdown-toggle" data-toggle="dropdown"><i class="icon-cog3"></i></a>
-											<div class="dropdown-menu dropdown-menu-right">
-												<a href="#" class="dropdown-item"><i class="icon-sync"></i> Update data</a>
-												<a href="#" class="dropdown-item"><i class="icon-list-unordered"></i> Detailed log</a>
-												<a href="#" class="dropdown-item"><i class="icon-pie5"></i> Statistics</a>
-												<div class="dropdown-divider"></div>
-												<a href="#" class="dropdown-item"><i class="icon-cross3"></i> Clear list</a>
-											</div>
-				                		</div>
-				                	</div>
-								</div>
-							</div>
-
-							<div class="card-body">
-								<div class="chart" id="sales-heatmap"></div>
-							</div>
-
-							<div class="table-responsive">
-								<table class="table text-nowrap">
-									<thead>
-										<tr>
-											<th class="w-100">Application</th>
-											<th>Time</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-primary-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Sigma application</a>
-														<div class="text-muted font-size-sm"><i class="icon-checkmark3 font-size-sm mr-1"></i> New order</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<span class="text-muted font-size-sm">06:28 pm</span>
-											</td>
-											<td>
-												<h6 class="font-weight-semibold mb-0">$49.90</h6>
-											</td>
-										</tr>
-
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-danger-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Alpha application</a>
-														<div class="text-muted font-size-sm"><i class="icon-spinner11 font-size-sm mr-1"></i> Renewal</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<span class="text-muted font-size-sm">04:52 pm</span>
-											</td>
-											<td>
-												<h6 class="font-weight-semibold mb-0">$90.50</h6>
-											</td>
-										</tr>
-
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-indigo-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Delta application</a>
-														<div class="text-muted font-size-sm"><i class="icon-lifebuoy font-size-sm mr-1"></i> Support</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<span class="text-muted font-size-sm">01:26 pm</span>
-											</td>
-											<td>
-												<h6 class="font-weight-semibold mb-0">$60.00</h6>
-											</td>
-										</tr>
-
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-success-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Omega application</a>
-														<div class="text-muted font-size-sm"><i class="icon-lifebuoy font-size-sm mr-1"></i> Support</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<span class="text-muted font-size-sm">11:46 am</span>
-											</td>
-											<td>
-												<h6 class="font-weight-semibold mb-0">$55.00</h6>
-											</td>
-										</tr>
-
-										<tr>
-											<td>
-												<div class="d-flex align-items-center">
-													<div class="mr-3">
-														<a href="#" class="btn bg-danger-400 rounded-round btn-icon btn-sm">
-															<span class="letter-icon"></span>
-														</a>
-													</div>
-													<div>
-														<a href="#" class="text-default font-weight-semibold letter-icon-title">Alpha application</a>
-														<div class="text-muted font-size-sm"><i class="icon-spinner11 font-size-sm mr-2"></i> Renewal</div>
-													</div>
-												</div>
-											</td>
-											<td>
-												<span class="text-muted font-size-sm">10:29 am</span>
-											</td>
-											<td>
-												<h6 class="font-weight-semibold mb-0">$90.50</h6>
-											</td>
-										</tr>
-									</tbody>
-								</table>
-							</div>
-						</div>
-						<!-- /daily sales -->
-
-
-						<!-- My messages --
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h6 class="card-title">My messages</h6>
-								<div class="header-elements">
-									<span><i class="icon-history text-warning mr-2"></i> Jul 7, 10:30</span>
-									<span class="badge bg-success align-self-start ml-3">Online</span>
-								</div>
-							</div>
-
-							<!-- Numbers --
-							<div class="card-body py-0">
-								<div class="row text-center">
-									<div class="col-4">
-										<div class="mb-3">
-											<h5 class="font-weight-semibold mb-0">2,345</h5>
-											<span class="text-muted font-size-sm">this week</span>
-										</div>
-									</div>
-
-									<div class="col-4">
-										<div class="mb-3">
-											<h5 class="font-weight-semibold mb-0">3,568</h5>
-											<span class="text-muted font-size-sm">this month</span>
-										</div>
-									</div>
-
-									<div class="col-4">
-										<div class="mb-3">
-											<h5 class="font-weight-semibold mb-0">32,693</h5>
-											<span class="text-muted font-size-sm">all messages</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- /numbers -->
-
-
-							<!-- Area chart --
-							<div id="messages-stats"></div>
-							<!-- /area chart -->
-
-
-							<!-- Tabs --
-		                	<ul class="nav nav-tabs nav-tabs-solid nav-justified bg-indigo-400 border-x-0 border-bottom-0 border-top-indigo-300 mb-0">
-								<li class="nav-item">
-									<a href="#messages-tue" class="nav-link font-size-sm text-uppercase active" data-toggle="tab">
-										Tuesday
-									</a>
-								</li>
-
-								<li class="nav-item">
-									<a href="#messages-mon" class="nav-link font-size-sm text-uppercase" data-toggle="tab">
-										Monday
-									</a>
-								</li>
-
-								<li class="nav-item">
-									<a href="#messages-fri" class="nav-link font-size-sm text-uppercase" data-toggle="tab">
-										Friday
-									</a>
-								</li>
-							</ul>
-							<!-- /tabs -->
-
-
-							<!-- Tabs content --
-							<div class="tab-content card-body">
-								<div class="tab-pane active fade show" id="messages-tue">
-									<ul class="media-list">
-										<li class="media">
-											<div class="mr-3 position-relative">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-												<span class="badge bg-danger-400 badge-pill badge-float border-2 border-white">8</span>
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">James Alexander</a>
-													<span class="font-size-sm text-muted">14:58</span>
-												</div>
-
-												The constitutionally inventoried precariously...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3 position-relative">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-												<span class="badge bg-danger-400 badge-pill badge-float border-2 border-white">6</span>
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Margo Baker</a>
-													<span class="font-size-sm text-muted">12:16</span>
-												</div>
-
-												Pinched a well more moral chose goodness...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Jeremy Victorino</a>
-													<span class="font-size-sm text-muted">09:48</span>
-												</div>
-
-												Pert thickly mischievous clung frowned well...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Beatrix Diaz</a>
-													<span class="font-size-sm text-muted">05:54</span>
-												</div>
-
-												Nightingale taped hello bucolic fussily cardinal...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">												
-												<div class="d-flex justify-content-between">
-													<a href="#">Richard Vango</a>
-													<span class="font-size-sm text-muted">01:43</span>
-												</div>
-
-												Amidst roadrunner distantly pompously where...
-											</div>
-										</li>
-									</ul>
-								</div>
-
-								<div class="tab-pane fade" id="messages-mon">
-									<ul class="media-list">
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Isak Temes</a>
-													<span class="font-size-sm text-muted">Tue, 19:58</span>
-												</div>
-
-												Reasonable palpably rankly expressly grimy...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Vittorio Cosgrove</a>
-													<span class="font-size-sm text-muted">Tue, 16:35</span>
-												</div>
-
-												Arguably therefore more unexplainable fumed...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Hilary Talaugon</a>
-													<span class="font-size-sm text-muted">Tue, 12:16</span>
-												</div>
-
-												Nicely unlike porpoise a kookaburra past more...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Bobbie Seber</a>
-													<span class="font-size-sm text-muted">Tue, 09:20</span>
-												</div>
-
-												Before visual vigilantly fortuitous tortoise...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Walther Laws</a>
-													<span class="font-size-sm text-muted">Tue, 03:29</span>
-												</div>
-
-												Far affecting more leered unerringly dishonest...
-											</div>
-										</li>
-									</ul>
-								</div>
-
-								<div class="tab-pane fade" id="messages-fri">
-									<ul class="media-list">
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Owen Stretch</a>
-													<span class="font-size-sm text-muted">Mon, 18:12</span>
-												</div>
-
-												Tardy rattlesnake seal raptly earthworm...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Jenilee Mcnair</a>
-													<span class="font-size-sm text-muted">Mon, 14:03</span>
-												</div>
-
-												Since hello dear pushed amid darn trite...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Alaster Jain</a>
-													<span class="font-size-sm text-muted">Mon, 13:59</span>
-												</div>
-
-												Dachshund cardinal dear next jeepers well...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Sigfrid Thisted</a>
-													<span class="font-size-sm text-muted">Mon, 09:26</span>
-												</div>
-
-												Lighted wolf yikes less lemur crud grunted...
-											</div>
-										</li>
-
-										<li class="media">
-											<div class="mr-3">
-												<img src="../../../../global_assets/images/placeholders/placeholder.jpg" class="rounded-circle" width="36" height="36" alt="">
-											</div>
-
-											<div class="media-body">
-												<div class="d-flex justify-content-between">
-													<a href="#">Sherilyn Mckee</a>
-													<span class="font-size-sm text-muted">Mon, 06:38</span>
-												</div>
-
-												Less unicorn a however careless husky...
-											</div>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<!-- /tabs content -->
-
-						</div>
-						<!-- /my messages -->
-
-
-						<!-- Daily financials --
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h6 class="card-title">Daily financials</h6>
-								<div class="header-elements">
-									<div class="form-check form-check-inline form-check-right form-check-switchery form-check-switchery-sm">
-										<label class="form-check-label">
-											<input type="checkbox" class="form-input-switchery" id="realtime" checked data-fouc>
-											Realtime
-										</label>
-									</div>
-									<span class="badge bg-danger-400 badge-pill">+86</span>
-								</div>
-							</div>
-
-							<div class="card-body">
-								<div class="chart mb-3" id="bullets"></div>
-
-								<ul class="media-list">
-									<li class="media">
-										<div class="mr-3">
-											<a href="#" class="btn bg-transparent border-pink text-pink rounded-round border-2 btn-icon"><i class="icon-statistics"></i></a>
-										</div>
-										
-										<div class="media-body">
-											Stats for July, 6: <span class="font-weight-semibold">1938</span> orders, <span class="font-weight-semibold text-danger">$4220</span> revenue
-											<div class="text-muted">2 hours ago</div>
-										</div>
-
-										<div class="ml-3 align-self-center">
-											<a href="#" class="list-icons-item"><i class="icon-more"></i></a>
-										</div>
-									</li>
-
-									<li class="media">
-										<div class="mr-3">
-											<a href="#" class="btn bg-transparent border-success text-success rounded-round border-2 btn-icon"><i class="icon-checkmark3"></i></a>
-										</div>
-										
-										<div class="media-body">
-											Invoices <a href="#">#4732</a> and <a href="#">#4734</a> have been paid
-											<div class="text-muted">Dec 18, 18:36</div>
-										</div>
-
-										<div class="ml-3 align-self-center">
-											<a href="#" class="list-icons-item"><i class="icon-more"></i></a>
-										</div>
-									</li>
-
-									<li class="media">
-										<div class="mr-3">
-											<a href="#" class="btn bg-transparent border-primary text-primary rounded-round border-2 btn-icon"><i class="icon-alignment-unalign"></i></a>
-										</div>
-										
-										<div class="media-body">
-											Affiliate commission for June has been paid
-											<div class="text-muted">36 minutes ago</div>
-										</div>
-
-										<div class="ml-3 align-self-center">
-											<a href="#" class="list-icons-item"><i class="icon-more"></i></a>
-										</div>
-									</li>
-
-									<li class="media">
-										<div class="mr-3">
-											<a href="#" class="btn bg-transparent border-warning-400 text-warning-400 rounded-round border-2 btn-icon"><i class="icon-spinner11"></i></a>
-										</div>
-
-										<div class="media-body">
-											Order <a href="#">#37745</a> from July, 1st has been refunded
-											<div class="text-muted">4 minutes ago</div>
-										</div>
-
-										<div class="ml-3 align-self-center">
-											<a href="#" class="list-icons-item"><i class="icon-more"></i></a>
-										</div>
-									</li>
-
-									<li class="media">
-										<div class="mr-3">
-											<a href="#" class="btn bg-transparent border-teal text-teal rounded-round border-2 btn-icon"><i class="icon-redo2"></i></a>
-										</div>
-										
-										<div class="media-body">
-											Invoice <a href="#">#4769</a> has been sent to <a href="#">Robert Smith</a>
-											<div class="text-muted">Dec 12, 05:46</div>
-										</div>
-
-										<div class="ml-3 align-self-center">
-											<a href="#" class="list-icons-item"><i class="icon-more"></i></a>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<!-- /daily financials -->
-
+					<div class="card-body">
+						Example of a <code>basic</code> Esta es la Tabla de Empleados <code>.table</code> to any <code></code>
+					</div>
+
+					<div class="table-responsive">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Nombre</th>
+									<th>Apellido</th>
+									<th>Matricula</th>
+									<th>Habilidad</th>
+									<th>Direccion</th>
+									<th>Departamento</th>
+									<th>Direccion Del Departamento</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Eugene</td>
+									<td>Kopyov</td>
+									<td>30420</td>
+									<td>Costurero</td>
+									<td>Calle Verde</td>
+									<td>Textiles</td>
+									<td>Aula 2</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Victoria</td>
+									<td>Baker</td>
+									<td>30471</td>
+									<td>Barrer</td>
+									<td>Calle Verde</td>
+									<td>Limpieza</td>
+									<td>Aula 7</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>James</td>
+									<td>Alexander</td>
+									<td>30422</td>
+									<td>Costurero</td>
+									<td>Calle Verde</td>
+									<td>Textiles</td>
+									<td>Aula 2</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>Franklin</td>
+									<td>Morrison</td>
+									<td>30475</td>
+									<td>Limpiar</td>
+									<td>Calle Verde</td>
+									<td>Limpieza</td>
+									<td>Aula 7</td>d>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
-				<!-- /dashboard content -->
+				<!-- /basic table -->
+
+<!-- / relleno-->
+				<!-- Striped rows -->
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Departamentos</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						 <code><code> <code></code>Esta es la tabla de Departamentos de la empresa <code></code> <code></code><code></code> 
+					</div>
+
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Nombre</th>
+									<th>Codigo</th>
+									<th>Direccio</th>
+									<th>Cantidad de Empleado</th>
+									<th>Subcodigo</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Textiles</td>
+									<th>30175</th>
+									<th>Aula 7</th>
+									<th>7</th>
+									<th>301</th>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Limpieza</td>
+									<th>20268</th>
+									<th>Aula 2</th>
+									<th>9</th>
+									<th>202</th>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>Administrativa</td>
+									<th>53721</th>
+									<th>Aula 5</th>
+									<th>6</th>
+									<th>537</th>
+									<button>Editar</button></A></center>
+									<button>Eliminar</button></A></center>	
+									</tr>
+								<!-- Striped rows --
+								<tr>
+									<td>4</td>
+									<td>Franklin</td>
+									<td>Morrison</td>
+									<td>@Frank</td>
+								</tr>-->
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- /striped rows -->
+
+
+				<!-- Bordered table -->
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Habilidad</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						 <code></code>Esta es la tabla de las Habilidades de los Empleados <code></code> <code></code>  <a href="table_borders.html"></a> 
+					</div>
+
+					<div class="table-responsive">
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th></th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Eugene</td>
+									<td>Kopyov</td>
+									<td>@Kopyov</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Victoria</td>
+									<td>Baker</td>
+									<td>@Vicky</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>James</td>
+									<td>Alexander</td>
+									<td>@Alex</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>Franklin</td>
+									<td>Morrison</td>
+									<td>@Frank</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- /bordered table -->
+<!--comentado
+
+				<!-- Bordered striped table 
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Bordered striped</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						Example of a <code>bordered</code> table with <code>stiped</code> rows. Add <code>.table-bordered</code> and <code>.table-striped</code> classes to the base <code>.table</code> class for borders and row striping. This method works with all table border options.
+					</div>
+
+					<div class="table-responsive">
+						<table class="table table-bordered table-striped">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>First Name</th>
+									<th>Last Name</th>
+									<th>Username</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Eugene</td>
+									<td>Kopyov</td>
+									<td>@Kopyov</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Victoria</td>
+									<td>Baker</td>
+									<td>@Vicky</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>James</td>
+									<td>Alexander</td>
+									<td>@Alex</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>Franklin</td>
+									<td>Morrison</td>
+									<td>@Frank</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- /bordered striped table -->
+
+
+				<!-- Hover rows 
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Hover rows</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						Example of a table with <code>hover</code> rows state. Add <code>.table-hover</code> to enable a hover state on table rows within a <code>&lt;tbody&gt;</code>.
+					</div>
+
+					<div class="table-responsive">
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>First Name</th>
+									<th>Last Name</th>
+									<th>Username</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Eugene</td>
+									<td>Kopyov</td>
+									<td>@Kopyov</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Victoria</td>
+									<td>Baker</td>
+									<td>@Vicky</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>James</td>
+									<td>Alexander</td>
+									<td>@Alex</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>Franklin</td>
+									<td>Morrison</td>
+									<td>@Frank</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- /hover rows -->
+
+
+				<!-- Scrollable table 
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Scrollable table</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						Example of a <code>scrollable</code> table. To use a fixed height with scrolling, wrap any table in a div with <code>.table-scrollable</code> class. Max height of the table container will be <code>22.5rem</code> and table will get a vertical scrollbar if its height exceeds this value.
+					</div>
+
+					<div class="table-responsive table-scrollable">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>First Name</th>
+									<th>Last Name</th>
+									<th>Username</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Eugene</td>
+									<td>Kopyov</td>
+									<td>@Kopyov</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Victoria</td>
+									<td>Baker</td>
+									<td>@Vicky</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>James</td>
+									<td>Alexander</td>
+									<td>@Alex</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>Stanley</td>
+									<td>Martins</td>
+									<td>@Stan</td>
+								</tr>
+								<tr>
+									<td>5</td>
+									<td>Winnie</td>
+									<td>the Pooh</td>
+									<td>@Winnie</td>
+								</tr>
+								<tr>
+									<td>6</td>
+									<td>Garry</td>
+									<td>Smith</td>
+									<td>@Garry</td>
+								</tr>
+								<tr>
+									<td>7</td>
+									<td>Ian</td>
+									<td>Berg</td>
+									<td>@Ian</td>
+								</tr>
+								<tr>
+									<td>8</td>
+									<td>John</td>
+									<td>Ryan</td>
+									<td>@John</td>
+								</tr>
+								<tr>
+									<td>9</td>
+									<td>Frank</td>
+									<td>Giggs</td>
+									<td>@Frank</td>
+								</tr>
+								<tr>
+									<td>10</td>
+									<td>Jack</td>
+									<td>Gram</td>
+									<td>@Jack</td>
+								</tr>
+								<tr>
+									<td>11</td>
+									<td>Patrick</td>
+									<td>Lawrence</td>
+									<td>@Patrick</td>
+								</tr>
+								<tr>
+									<td>12</td>
+									<td>Lucy</td>
+									<td>Gulf</td>
+									<td>@Lucy</td>
+								</tr>
+								<tr>
+									<td>13</td>
+									<td>Dave</td>
+									<td>Armstrong</td>
+									<td>@Dave</td>
+								</tr>
+								<tr>
+									<td>14</td>
+									<td>Sean</td>
+									<td>Lewis</td>
+									<td>@Sean</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- /scrollable table -->
+
+
+
+				<!-- Card body tables title 
+				<div class="mb-3 pt-2">
+					<h6 class="mb-0 font-weight-semibold">
+						Card body tables
+					</h6>
+					<span class="text-muted d-block">Tables placed inside <code>card body</code>.</span>
+				</div>
+				<!-- /card body tables title -->
+
+
+				<!-- Card body table 
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Card body table</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						<p class="mb-3">Example of a table placed inside <code>card body</code>. Such tables always have additional whitespace taken from <code>.card-body</code> element padding.</p>
+
+						<div class="table-responsive">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>#</th>
+										<th>First Name</th>
+										<th>Last Name</th>
+										<th>Username</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>Eugene</td>
+										<td>Kopyov</td>
+										<td>@Kopyov</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>Victoria</td>
+										<td>Baker</td>
+										<td>@Vicky</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>James</td>
+										<td>Alexander</td>
+										<td>@Alex</td>
+									</tr>
+									<tr>
+										<td>4</td>
+										<td>Franklin</td>
+										<td>Morrison</td>
+										<td>@Frank</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<!-- /card body table -->
+
+
+				<!-- Framed card body table 
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Framed table</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						<p class="mb-3">Example of <code>framed</code> table inside card body. Tables that placed inside card body don't have border around them by default, <code>.table-framed</code> class adds border around the table.</p>
+
+						<div class="card card-table table-responsive shadow-0 mb-0">
+							<table class="table">
+								<thead>
+									<tr>
+										<th>#</th>
+										<th>First Name</th>
+										<th>Last Name</th>
+										<th>Username</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>Eugene</td>
+										<td>Kopyov</td>
+										<td>@Kopyov</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>Victoria</td>
+										<td>Baker</td>
+										<td>@Vicky</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>James</td>
+										<td>Alexander</td>
+										<td>@Alex</td>
+									</tr>
+									<tr>
+										<td>4</td>
+										<td>Franklin</td>
+										<td>Morrison</td>
+										<td>@Frank</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<!-- /framed card body table -->
+
+
+				<!-- Bordered card body table 
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h5 class="card-title">Framed bordered</h5>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+		                		<a class="list-icons-item" data-action="reload"></a>
+		                		<a class="list-icons-item" data-action="remove"></a>
+		                	</div>
+	                	</div>
+					</div>
+
+					<div class="card-body">
+						<p class="mb-3">Example of <code>bordered framed</code> table inside card body. By default bordered table also doesn't have a border, to use border around the bordered table add <code>.table-framed</code> to the <code>&lt;table></code>.</p>
+
+						<div class="card card-table table-responsive shadow-0 mb-0">
+							<table class="table table-bordered">
+								<thead>
+									<tr>
+										<th>#</th>
+										<th>First Name</th>
+										<th>Last Name</th>
+										<th>Username</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>Eugene</td>
+										<td>Kopyov</td>
+										<td>@Kopyov</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>Victoria</td>
+										<td>Baker</td>
+										<td>@Vicky</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>James</td>
+										<td>Alexander</td>
+										<td>@Alex</td>
+									</tr>
+									<tr>
+										<td>4</td>
+										<td>Franklin</td>
+										<td>Morrison</td>
+										<td>@Frank</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<!-- /bordered card body table -->
 
 			</div>
 			<!-- /content area -->
 
 
-			<!-- Footer --
+			<!-- Footer -->
 			<div class="navbar navbar-expand-lg navbar-light">
 				<div class="text-center d-lg-none w-100">
 					<button type="button" class="navbar-toggler dropdown-toggle" data-toggle="collapse" data-target="#navbar-footer">
@@ -3113,16 +1924,17 @@
 						<li class="nav-item"><a href="https://kopyov.ticksy.com/" class="navbar-nav-link" target="_blank"><i class="icon-lifebuoy mr-2"></i> Support</a></li>
 						<li class="nav-item"><a href="http://demo.interface.club/limitless/docs/" class="navbar-nav-link" target="_blank"><i class="icon-file-text2 mr-2"></i> Docs</a></li>
 						<li class="nav-item"><a href="https://themeforest.net/item/limitless-responsive-web-application-kit/13080328?ref=kopyov" class="navbar-nav-link font-weight-semibold"><span class="text-pink-400"><i class="icon-cart2 mr-2"></i> Purchase</span></a></li>
-					</ul>
+				</ul>
 				</div>
 			</div>
 			<!-- /footer -->
-
+  
 		</div>
 		<!-- /main content -->
 
 	</div>
 	<!-- /page content -->
-
+	
+             
 </body>
 </html>
